@@ -6,11 +6,11 @@ interface SwipeButtonUpProps {
 }
 
 export default function SwipeAtas({ items }: SwipeButtonUpProps) {
-  const [currentIndex, setCurrentIndex] = useState(0)
+  
   const [showButton, setShowButton] = useState(false)
 
   const handleSwipe = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length)
+    
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
