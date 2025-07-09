@@ -5,7 +5,7 @@ interface SwipeButtonUpProps {
   items: string[]
 }
 
-export default function SwipeAtas({ items }: SwipeButtonUpProps) {
+export default function SwipeAtas({ }: SwipeButtonUpProps) {
   
   const [showButton, setShowButton] = useState(false)
 
