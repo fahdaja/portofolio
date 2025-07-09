@@ -22,7 +22,7 @@ function ProjectsSection() {
       description: 'Website Portofolio Pribadi Menggunakan Next.js Dan Tailwind CSS.',
       tech: ['Next.js','Tailwind CSS'],
       image: '/porto webbb.png',
-      github: '#',
+      github: 'https://github.com/fahdaja/portofolio',
       demo: '#'
     },
     {
