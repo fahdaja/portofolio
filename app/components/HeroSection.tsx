@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import { ChevronDown } from 'lucide-react';
 
 function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -56,9 +55,6 @@ function HeroSection() {
             </div>
           </div>
         </div>
-
-        {/* Chevron Down */}
-       
       </section>
     </div>
   );
