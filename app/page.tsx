@@ -2,6 +2,7 @@ import React from 'react';
 // Make sure the path and filename are correct; adjust as needed:
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
+import ChevronScroll from './components/ChevronScroll';
 import AboutSection from './components/AboutSection';
 import KeahlianTeknis from './components/KeahlianTeknis';
 import ProjectsSection from './components/ProjectsSection';
@@ -16,6 +17,7 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white relative overflow-hidden">
       <Navbar />
       <HeroSection />
+      <ChevronScroll />
       <AboutSection />
       <KeahlianTeknis />
       <ProjectsSection />

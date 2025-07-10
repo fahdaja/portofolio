@@ -11,11 +11,22 @@ function HeroSection() {
   };
 
   return (
-<div>
-  <section id="Home" className="relative z-10 min-h-screen flex items-center px-4 md:px-8 pt-20">
+    <div>
+      <section id="Home" className="relative z-10 min-h-screen flex items-center px-4 md:px-8 pt-20">
         <div className="grid md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto">
-          {/* Kolom 1: Teks Deskripsi */}
-          <div className="text-center md:text-left">
+          {/* Kolom Foto Profil */}
+          <div className="order-1 md:order-2 flex justify-center md:justify-end transition-all duration-300 transform hover:scale-103">
+            <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
+              <img
+                src="/foto_profile.jpg"
+                alt="Profile"
+                className="w-full h-full object-cover rounded-2xl shadow-2xl"
+              />
+            </div>
+          </div>
+
+          {/* Kolom Teks Deskripsi */}
+          <div className="order-2 md:order-1 text-center md:text-left">
             <h1 className="text-5xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-teal-400 bg-clip-text text-transparent">
               Muhammad Fahd Al Islam Al Bantani
             </h1>
@@ -44,28 +55,13 @@ function HeroSection() {
               </button>
             </div>
           </div>
-
-          {/* Kolom 2: Foto Profil */}
-          <div className="flex justify-center md:justify-end transition-all duration-300 transform hover:scale-103">
-            <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
-              <img
-                src="/foto_profile.jpg"
-                alt="Profile"
-                className="w-full h-full object-cover rounded-2xl shadow-2xl"
-              />
-            </div>
-          </div>
         </div>
 
         {/* Chevron Down */}
-        <div className="absolute left-1/2 bottom-8 md:bottom-12 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown className="w-8 h-8 text-gray-400" />
-        </div>
+       
       </section>
     </div>
   );
 }
 
 export default HeroSection;
-
-
