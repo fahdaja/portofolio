@@ -4,7 +4,7 @@ function ContactSection() {
   return (
     <div>
       {/* Contact Section */}
-      <section id="Contact" className="relative z-10 py-20 px-4">
+      <section id="Kontak" className="relative z-10 py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Hubungi Saya

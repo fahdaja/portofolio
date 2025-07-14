@@ -12,7 +12,7 @@ function TechStack() {
   return (
     <div>
       {/* SECTION KEAHLIAN TEKNIS */}
-      <section id="Skills" className="relative z-10 py-20 px-4">
+      <section id="Tech Stack" className="relative z-10 py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Tech Stack

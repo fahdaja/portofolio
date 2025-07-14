@@ -11,7 +11,7 @@ function ExperiencesSection() {
     },
     {
       company: 'Telkom University',
-      position: 'Frontend Developer',
+      position: 'Front-end Developer',
       period: 'Februari 2024 - Juni 2024',
       description: 'Mendevelop website aplikasi penyewaan lapangan Futsal dengan Framework Laravel dan bootstrap'
     },
@@ -25,7 +25,7 @@ function ExperiencesSection() {
   return (
     <div>
       {/* Experience Section */}
-      <section id="Experience" className="relative z-10 py-20 px-4">
+      <section id="Pengalaman Kerja" className="relative z-10 py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Pengalaman Kerja

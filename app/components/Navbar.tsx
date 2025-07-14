@@ -57,7 +57,7 @@ function Navbar() {
           </a>
 
           <div className="hidden md:flex space-x-6">
-            {["Home","About","Skills","Project","Experience","Contact"].map((link, i) => (
+            {["Home","Tentang Saya","Tech Stack","Project & Sertifikat","Pengalaman Kerja","Kontak"].map((link, i) => (
               <a key={i} href={`#${link}`} className="text-gray-300 hover:text-blue-400 transition-colors duration-300">{link}</a>
             ))}
           </div>
@@ -83,7 +83,7 @@ function Navbar() {
           ${menuOpen ? 'translate-x-0' : 'translate-x-full'}
           md:hidden flex flex-col pt-20 px-6 space-y-4 z-40`}
       >
-        {["Home","About","Skills","Project","Experience","Contact"].map((link, i) => (
+        {["Home","Tentang Saya","Tech Stack","Project & Sertifikat","Pengalaman Kerja","Kontak"].map((link, i) => (
           <a 
             key={i}
             onClick={() => setMenuOpen(false)}

@@ -13,7 +13,7 @@ function ChevronScroll() {
   return (
     <div className="flex justify-center my-8">
       <button
-        onClick={() => scrollToSection('About')}
+        onClick={() => scrollToSection('Tentang Saya')}
         className="animate-bounce"
       >
         <ChevronDown className="w-10 h-10 text-gray-400" />
