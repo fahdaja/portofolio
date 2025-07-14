@@ -12,7 +12,7 @@ function AboutSection() {
           <div className="grid sm:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-semibold mb-6 text-white">
-                Mahasiswa Telkom University
+                Siapa Saya ?
               </h3>
               <p className="text-gray-300 mb-6 leading-relaxed text-justify">
                 Saya Muhammad Fahd Al Islam Al Bantani, seorang Fullstack Developer yang berpengalaman membangun aplikasi web menggunakan Laravel, Next.js, dengan Menggunakan Framework CSS dari Tailwind CSS.

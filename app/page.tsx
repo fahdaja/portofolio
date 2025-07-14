@@ -4,11 +4,11 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ChevronScroll from './components/ChevronScroll';
 import AboutSection from './components/AboutSection';
-import KeahlianTeknis from './components/KeahlianTeknis';
 import ProjectsSection from './components/ProjectsSection';
 import ExperiencesSection from './components/ExperiencesSection';
 import ContactSection from './components/ContactSection';
-import SwipeAtas from './components/SwipeAtas';
+import SwipeUp from './components/SwipeUp';
+import TechStack from './components/TechStack';
 
 export default function Home() {
   
@@ -19,11 +19,11 @@ export default function Home() {
       <HeroSection />
       <ChevronScroll />
       <AboutSection />
-      <KeahlianTeknis />
+      <TechStack />
       <ProjectsSection />
       <ExperiencesSection />
       <ContactSection />
-      <SwipeAtas items={[]} />
+      <SwipeUp items={[]} />
     </div>
   );
 }

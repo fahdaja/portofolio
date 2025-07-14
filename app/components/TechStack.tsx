@@ -1,6 +1,6 @@
 import React from 'react'
 
-function KeahlianTeknis() {
+function TechStack() {
     const skills = [    
     { name: 'Next.js', level: 50, icon: "/nextjs.svg" },
     { name: 'JavaScript', level: 75, icon: "/javascript.svg" },
@@ -15,7 +15,7 @@ function KeahlianTeknis() {
       <section id="Skills" className="relative z-10 py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Keahlian Teknis
+            Tech Stack
           </h2>
           {/* PERUBAHAN: Menghapus lg:grid-cols-3 agar tetap 2 kolom */}
           <div className="grid sm:grid-cols-2 gap-8">
@@ -48,5 +48,5 @@ function KeahlianTeknis() {
   )
 }
 
-export default KeahlianTeknis
+export default TechStack
 
